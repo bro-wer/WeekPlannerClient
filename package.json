@@ -10,6 +10,8 @@
   "author": "bro",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^2.0.6"
+    "bootstrap3": "^3.3.5",
+    "electron": "^2.0.6",
+    "jquery": "^3.3.1"
   }
 }

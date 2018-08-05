@@ -8,6 +8,8 @@ const {app, BrowserWindow} = require('electron')
   function createWindow () {
     // Create the browser window.
     win = new BrowserWindow({width: 800, height: 600})
+    win.maximize()
+    win.setMenu(null);
 
     // load main index.html
     win.loadFile(path.join('src', 'html', 'index.html'))
